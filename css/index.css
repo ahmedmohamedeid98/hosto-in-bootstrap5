@@ -1,0 +1,15 @@
+nav {
+    height: 50px;
+}
+
+li:hover {
+    border-top: 3px solid cyan;
+    border-bottom: 3px solid transparent;
+}
+
+#hosto-slider {
+    height: 300px;
+}
+#hosto-slider img {
+    height: 300px;
+}

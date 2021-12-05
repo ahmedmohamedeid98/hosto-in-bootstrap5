@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOSTO</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+
+</head>
+
+<body>
+
+
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-light bg-light  navbar-expand-md px-3 py-0">
+        <div class="d-flex w-100 h-100">
+            <!-- Navbar Logo -->
+            <div class="flex-fill align-self-center">
+                <a class="navbar-brand" href="#">
+                    <img src="./resources/hosto-logo.PNG" alt="">
+                </a>
+            </div>
+            <!-- remaining space will be for navbar links -->
+            <div class="d-flex">
+                <!-- collapsible Navbar Icon -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Navbar Links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav h-100 align-items-center ">
+                        <li class="d-flex nav-item me-4 align-items-center h-100">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="d-flex nav-item me-4 align-items-center h-100">
+                            <a class="nav-link" href="#">Layouts</a>
+                        </li>
+                        <li class="d-flex nav-item me-4 align-items-center h-100">
+                            <a class="nav-link" href="#">Elements</a>
+                        </li>
+                        <li class="d-flex nav-item me-4 align-items-center h-100">
+                            <a class="nav-link" href="#">Protfolio</a>
+                        </li>
+                        <li class="d-flex nav-item me-4 align-items-center h-100">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="d-flex nav-item align-items-center h-100">
+                            <a class="nav-link" href="#">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Slideshow -->
+    <div id="hosto-slider" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators-->
+        <div class="carousel-indicators">
+            <div type="button" data-bs-target="#hosto-slider" data-bs-slide-to="0" class="active"></div>
+            <button type="button" data-bs-target="#hosto-slider" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#hosto-slider" data-bs-slide-to="2"></button>
+        </div>
+
+        <!-- slideshow imgs -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./resources/img1.jpg" alt="bg img one" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="./resources/img2.jpg" alt="bg img two" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="./resources/img3.jpg" alt="bg img three" class="d-block w-100">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- features container -->
+    <div class="container d-flex jusify-content-center mt-5">
+        <!-- secure & reliable -->
+        <div class="flex-fill d-flex flex-column justify-content-center align-items-center" style="background-color: #07aca0;">
+            <div class="d-flex rounded-circle align-items-center justify-content-center"
+                style="width: 70px; height: 70px; background-color: rgba(255, 255, 255, 0.15)"><i
+                    class="far fa-thumbs-up" style="font-size: 24px; color: white;"></i>
+            </div>
+            <p class="text-white">Mobile</p>
+            <h4 class="text-white text-center">Secure & Reliable</h4>
+            <p class="text-white text-center px-4" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores deserunt iste rem ipsam est inventore
+                voluptate esse suscipit. Magnam molestiae placeat temporibus</p>
+        </div>
+        <!-- quick & super fast -->
+        <div class="flex-fill d-flex flex-column justify-content-center align-items-center" style="background-color: #17bcb0;">
+            <div class="d-flex rounded-circle align-items-center justify-content-center"
+                style="width: 70px; height: 70px; background-color: rgba(255, 255, 255, 0.15)"><i
+                    class="fas fa-rocket" style="font-size: 24px; color: white;"></i>
+            </div>
+            <p class="text-white text-center">Mobile</p>
+            <h4 class="text-white text-center">Quick & Super Fast</h4>
+            <p class="text-white text-center px-4" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores deserunt iste rem ipsam est inventore
+                voluptate esse suscipit. Magnam molestiae placeat temporibus</p>
+        </div>
+        <!-- customer support -->
+        <div class="flex-fill d-flex flex-column justify-content-center align-items-center py-4" style="background-color: #27ccc0;">
+            <div class="d-flex rounded-circle align-items-center justify-content-center"
+                style="width: 70px; height: 70px; background-color: rgba(255, 255, 255, 0.15)"><i
+                    class="fas fa-comments" style="font-size: 24px; color: white;"></i>
+            </div>
+            <p class="text-white">Mobile</p>
+            <h4 class="text-white text-center">Customer Support</h4>
+            <p class="text-white text-center px-4" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores deserunt iste rem ipsam est inventore
+                voluptate esse suscipit. Magnam molestiae placeat temporibus</p>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
