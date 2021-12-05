@@ -13,3 +13,16 @@ li:hover {
 #hosto-slider img {
     height: 300px;
 }
+
+
+.bolder {
+    font-family: 'Fredoka One', cursive;
+}
+
+.hosto-primary {
+    color: #07aca0;
+}
+
+.hosto-secondary {
+    color: #3e5161;
+}
