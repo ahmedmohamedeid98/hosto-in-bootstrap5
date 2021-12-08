@@ -26,3 +26,11 @@ li:hover {
 .hosto-secondary {
     color: #3e5161;
 }
+
+.tech img {
+    opacity: 0.2;
+}
+
+.tech img:hover {
+    opacity: 1;
+}
